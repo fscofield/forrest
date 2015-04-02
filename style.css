@@ -51,43 +51,6 @@ h4 a {
 	font-weight: 200;
 }
 
-.center {
-	margin: 0 auto;
-	position: relative;
-	padding: 0px 20px;
-	top: 50%;
-	margin-top: -150px;
-	text-align: center;
-}
-
-.center h1 {
-	font-size: 48px;
-}
-
-.center ul {
-	overflow: hidden;
-	padding: 2px;
-	width: 280px;
-	margin: 0 auto;
-}
-
-.center ul li {
-	float: left;
-	width: 33%;
-}
-
-.center a {
-	text-decoration: none;
-	color: #333;
-	padding: 2px 0px;
-	border-radius: 5px;
-	display: block;
-}
-
-.center a:hover {
-	color: red;
-}
-
 body.resume {
 	background-color: #E9E9E9;
 	box-sizing: border-box;
