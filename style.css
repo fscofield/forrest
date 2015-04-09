@@ -215,6 +215,87 @@ footer .address {
     -o-transform:rotate(360deg);
 }
 
+@media (max-width: 959px) {
+	body.resume {
+		padding: 0px;
+	}
+
+	.resume-wrap {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 36px;
+	}
+
+	.headshot-wrap {
+		width: 55px;
+  		height: 55px;
+	}
+
+	.main-head .meta {
+		float: none;
+		display: none;
+	}
+
+	section h3 {
+		font-size: 16px;
+  		margin-bottom: 13px;
+	}
+
+	section article time {
+		margin-top: 5px;
+		float: left;
+		font-size: 12px;
+	}
+
+	section article h4 {
+		float: none;
+		font-size: 16px;
+	}
+
+	section article ul {
+		margin-left: 17px;
+  		list-style-type: circle;
+	}
+
+	section article ul li {
+		font-size: 11px;
+		line-height: 18px;
+	}
+
+	footer .address {
+		display: none;
+	}
+}
+
+@media (max-width: 320px) {
+	section article h4 {
+		float: none;
+		font-size: 14px;
+	}
+
+	section article ul li {
+		font-size: 11px;
+		line-height: 18px;
+	}
+
+	.headshot-wrap {
+		width: 50px;
+		height: 50px;
+	}
+
+	h1 {
+		font-size: 32px;
+	}
+
+	.main-head .name {
+		margin-left: 8px;
+	}
+}
+
+
+
 
 
 .cf:before,

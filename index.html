@@ -5,7 +5,8 @@
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta name="twitter:site" content="@fscof">
-	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- <meta name="viewport" content="width=device-width, user-scalable=no"> -->
 	<meta charset="UTF-8">
 	<style>
 		html, body {
@@ -52,6 +53,33 @@
 		.center a:hover {
 			color: red;
 		}
+
+		@media (max-width: 600px) {
+			.center h1 {
+				font-size: 42px;
+			}
+
+			.center ul {
+				width: 100%;
+			}
+
+			.center ul li {
+				width: 48%;
+				font-size: 18px;
+				box-sizing: border-box;
+				background: #F5F3F3;
+				margin: 2px;
+				border-radius: 3px;
+			}
+
+			.center ul li a {
+				padding: 12px;
+				display: block;
+
+			}
+
+		}
+
 
 	</style>
 </head>
